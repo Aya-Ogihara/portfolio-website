@@ -257,6 +257,13 @@ Index section styles
 /*======
 About page styles
 =======*/
+.about p {
+  text-align: left;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
 /*
 Animation
 */
