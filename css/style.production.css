@@ -440,7 +440,6 @@ form {
 Media queries
 ======= */
 @media all and (max-width: 700px) {
-
   .navigation-list,
   .animation {
     display: none;
