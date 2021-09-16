@@ -289,19 +289,16 @@ Animation
 Work page styles
 ======= */
 .project-list {
-  width: 100%;
-  margin: 30px auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  margin: 30px 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .project-list__item {
   background: var(--bg);
   border-radius: 8px;
   padding: 10px 20px;
-  width: 30%;
-  margin-bottom: 20px;
 }
 
 .project-list__item p {
