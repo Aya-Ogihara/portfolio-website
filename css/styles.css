@@ -78,8 +78,7 @@ Button styles
   text-align: center;
 }
 
-.button-primary,
-#submit-btn {
+.button-primary {
   border: none;
   font-family: inherit;
   background-color: var(--base);
@@ -90,8 +89,7 @@ Button styles
   transition: 0.3s opacity;
 }
 
-.button-primary:hover,
-#submit-btn:hover {
+.button-primary:hover {
   cursor: pointer;
   text-decoration: none;
   opacity: 0.6;
@@ -176,7 +174,7 @@ Index section styles
   display: flex;
   width: 700px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 20vh 0;
 }
 
 .profile__portrait {
@@ -214,6 +212,7 @@ About page styles
   text-align: left;
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 10px;
   line-height: 1.6;
 }
 
@@ -331,6 +330,10 @@ form {
 #submit-btn {
   display: block;
   margin: 0 auto;
+}
+
+textarea {
+  resize: none;
 }
 
 /* ======

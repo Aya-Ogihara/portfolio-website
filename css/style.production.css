@@ -80,21 +80,7 @@ Button styles
   transition: 0.3s opacity;
 }
 
-#submit-btn {
-  border: none;
-  font-family: inherit;
-  background-color: #1f5a78;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  -webkit-transition: 0.3s opacity;
-  -o-transition: 0.3s opacity;
-  transition: 0.3s opacity;
-}
-
-.button-primary:hover,
-#submit-btn:hover {
+.button-primary:hover {
   cursor: pointer;
   text-decoration: none;
   opacity: 0.6;
@@ -195,7 +181,7 @@ Index section styles
   display: flex;
   width: 700px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 20vh 0;
 }
 
 .profile__portrait {
@@ -257,6 +243,7 @@ About page styles
   text-align: left;
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 10px;
   line-height: 1.6;
 }
 
@@ -434,6 +421,11 @@ form {
 #submit-btn {
   display: block;
   margin: 0 auto;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
 }
 
 /* ======
