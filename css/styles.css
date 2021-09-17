@@ -173,8 +173,7 @@ Index section styles
 .profile {
   display: flex;
   width: 700px;
-  margin: 0 auto;
-  padding: 20vh 0;
+  margin: 20vh auto;
 }
 
 .profile__portrait {
@@ -355,7 +354,8 @@ Media queries
   .profile {
     width: 300px;
     flex-direction: column;
-    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
   }
 

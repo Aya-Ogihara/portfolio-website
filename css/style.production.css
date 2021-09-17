@@ -180,8 +180,7 @@ Index section styles
   display: -ms-flexbox;
   display: flex;
   width: 700px;
-  margin: 0 auto;
-  padding: 20vh 0;
+  margin: 20vh auto;
 }
 
 .profile__portrait {
@@ -450,7 +449,8 @@ Media queries
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
   }
 
